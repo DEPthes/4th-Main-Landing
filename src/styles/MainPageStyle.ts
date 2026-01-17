@@ -6,8 +6,8 @@ export const Container = styled.div<{ $isLoaded: boolean }>`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100dvh;
-  gap: 43px;
+  height: 100vh;
+  gap: 40px;
   transition: opacity 0.3s ease-in-out;
   opacity: ${(props) => (props.$isLoaded ? 1 : 0)};
 
@@ -29,129 +29,112 @@ export const Container = styled.div<{ $isLoaded: boolean }>`
 `;
 
 export const TextWrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   position: relative;
   z-index: 1;
+  margin-top: 30px;
 
-  > img {
+  > p {
     transition: all 0.3s ease-in-out;
-    position: absolute;
-    top: 10%;
-    left: 33%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    width: 196px;
+    font: var(--GMarketSansBold);
+    font-size: 70px;
+    color: rgba(220, 235, 245, 0.15);
+    -webkit-text-stroke: 2px #dcebf5;
+    background-color: black; 
 
     ${isTablet} {
-      width: 91.6px;
+      font-size: 60px;
+      -webkit-text-stroke: 1px #dcebf5;
     }
 
     ${isMobile} {
-      width: 71.12px;
-      opacity: 0.5;
+      font-size: 32px;
+      -webkit-text-stroke: 1px #dcebf5;
     }
   }
+`;
 
-  > h1 {
-    transition: all 0.3s ease-in-out;
-    color: #fff;
-    font: var(--MainBigText1);
-
-    ${isTablet} {
-      font: var(--MainMediumText1);
-    }
-
+export const TitleWrap = styled.div`
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font: var(--GMarketSansBold);
+  font-size: 70px;
+  color: #fff;
+  background-color: black; 
+  > svg {
+    width: 50px;
+    height: 50px;
+  
     ${isMobile} {
-      font: var(--MainSmallText1);
+    display: none;
     }
   }
+  
+  ${isTablet} {
+    font-size: 60px;
+  }
 
-  > h2 {
-    transition: all 0.3s ease-in-out;
-    color: #fff;
-    font: var(--MainBigText2);
+  ${isMobile} {
+    font-size: 32px;
+  }
+`;
 
-    ${isTablet} {
-      font: var(--MainMediumText2);
-    }
+export const SubText = styled.div`
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+  line-height: 1.5;
+  font-size: 20px;
+  color: #898CA9;
+  margin-top: 54px;
+  background: linear-gradient(to bottom, #000000 -10%, #2A4891 600%); 
 
-    ${isMobile} {
-      font: var(--MainSmallText2);
-    }
+  ${isMobile} {
+    font-size: 12px;
   }
 `;
 
 export const GradientButton = styled.button`
   transition: all 0.3s ease-in-out;
   position: relative;
-  background: linear-gradient(225deg, #18c8ff 14.89%, #933ffe 85.85%);
-  width: 214px;
-  height: 77px;
-  border-radius: 13px;
+  background: linear-gradient(to bottom, #1D7DF3 50%, #4223D0 100%);
+  padding: 25px 35px;
+  border-radius: 10px;
   z-index: 1;
+  border: 1px solid #898CA9;
 
   ${isTablet} {
-    width: 100px;
-    height: 36px;
-    border-radius: 6.44px;
+    padding: 20px 30px;
   }
 
   ${isMobile} {
-    width: 104px;
-    height: 37px;
-    border-radius: 6.66px;
+    padding: 15px 25px;
   }
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.47) 0%,
-      rgba(255, 255, 255, 0.55) 45%,
-      rgba(255, 255, 255, 0.39) 100%
-    );
-    border-radius: 13px;
-    z-index: -1;
-
-    ${isTablet} {
-      border-radius: 6.44px;
-    }
-
-    ${isMobile} {
-      border-radius: 6.66px;
-    }
-  }
+  
 
   > span {
     transition: all 0.3s ease-in-out;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(225deg, #18c8ff 14.89%, #933ffe 85.85%);
     font: var(--MainBigBtnText);
+    font-weight: 500;
     color: #fff;
-    width: 211px;
-    height: 74px;
-    border-radius: 12.5px;
+    font-size: 20px;
     z-index: 1;
 
     ${isTablet} {
-      font: var(--MainMediumBtnText);
-      width: 98px;
-      height: 34px;
-      border-radius: 5.9px;
+      font-size: 18px;
     }
 
     ${isMobile} {
-      font: var(--MainSmallBtnText);
-      width: 101.5px;
-      height: 34.5px;
-      border-radius: 6px;
+      font-size: 14px;
     }
   }
 `;
