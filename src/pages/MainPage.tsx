@@ -2,7 +2,7 @@ import * as S from "@styles/MainPageStyle";
 import { useNavigate } from "react-router-dom";
 import MainBgImage from "@assets/images/background/mainBg.png";
 import MainBgMobileImage from "@assets/images/background/mainBgMobile.png";
-import GlassImage from "@assets/images/background/glass.png";
+import ShareIcon from "@assets/icons/shareIcon.svg?react";
 import useDMediaQuery from "@/hooks/useDMediaQuery";
 import { useEffect, useState } from "react";
 
@@ -34,9 +34,15 @@ const MainPage = () => {
   return (
     <S.Container $isLoaded={isImageLoaded}>
       <S.TextWrap>
-        <img src={GlassImage} alt="배경" />
-        <h2>DEPth 3rd</h2>
-        <h1>MAIN PROJECT</h1>
+        <p>DEPth 4th</p>
+        <S.TitleWrap>
+          <p>MAIN PROJECT</p>
+          <ShareIcon />
+        </S.TitleWrap>
+        <S.SubText>
+          <p>Do Evolve Potential in-DEPth</p>
+          <p>명지대학교 IT 동아리 DEPth의 Main Project를 만나보세요.</p>
+        </S.SubText>
       </S.TextWrap>
       <S.GradientButton onClick={() => navigate("/service")}>
         <span>프로젝트 둘러보기</span>

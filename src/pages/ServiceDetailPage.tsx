@@ -35,14 +35,14 @@ export default ServiceDetailPage;
 export const Container = styled.div`
   transition: all 0.3s ease-in-out;
   display: flex;
-  margin-top: 147px;
+  margin-top: 116px;
 
   ${isTablet} {
-    margin-top: 78px;
+    margin-top: 86px;
   }
 
   ${isMobile} {
-    margin-top: 78px;
+    margin-top: 86px;
   }
 
   > img {

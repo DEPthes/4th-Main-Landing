@@ -6,7 +6,7 @@ export const Container = styled.div<{ $isTransparent: boolean }>`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 222px 20px;
+  padding: 32px 64px;
   background-color: ${(props) =>
     props.$isTransparent ? "transparent" : "#00000030"};
 
@@ -20,14 +20,13 @@ export const Container = styled.div<{ $isTransparent: boolean }>`
 `;
 
 export const IconWrap = styled.button`
-  padding: 12px 48px;
 
   ${isTablet} {
     padding: 0px;
 
     > svg {
       transition: all 0.3s ease-in-out;
-      width: 72.31px;
+      width: 100px;
     }
   }
 
@@ -44,7 +43,6 @@ export const IconWrap = styled.button`
 export const DesktopBtnWrap = styled.div`
   display: flex;
   gap: 24px;
-  padding: 12px 16px;
 
   > button {
     padding: 8px 12px;
