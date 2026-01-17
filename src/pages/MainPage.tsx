@@ -2,7 +2,7 @@ import * as S from "@styles/MainPageStyle";
 import { useNavigate } from "react-router-dom";
 import MainBgImage from "@assets/images/background/mainBg.png";
 import MainBgMobileImage from "@assets/images/background/mainBgMobile.png";
-import ShareIcon from "@assets/icons/shareIcon.svg?react";
+import ShareIcon from "@assets/icons/ShareIcon.svg?react";
 import useDMediaQuery from "@/hooks/useDMediaQuery";
 import { useEffect, useState } from "react";
 
