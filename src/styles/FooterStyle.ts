@@ -27,6 +27,7 @@ export const LinkWrap = styled.div`
   transition: all 0.3s ease-in-out;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 50px;
 
   ${isTablet} {
