@@ -1,37 +1,37 @@
-import Image1 from "@assets/images/thumbnail/일거수일투족.png";
-import Image2 from "@assets/images/thumbnail/wishwesee.png";
-import Image3 from "@assets/images/thumbnail/spillthetea.png";
-import Image4 from "@assets/images/thumbnail/paykids.png";
+import Image1 from "@assets/images/thumbnail/seatnow.png";
+import Image2 from "@assets/images/thumbnail/aim.png";
+import Image3 from "@assets/images/thumbnail/deokive.png";
+import Image4 from "@assets/images/thumbnail/finvibe.png";
 
-import DetailImage1 from "@assets/images/detail/일거수일투족.png";
-import DetailImage2 from "@assets/images/detail/wishwesee.png";
-import DetailImage3 from "@assets/images/detail/spillthetea.png";
-import DetailImage4 from "@assets/images/detail/paykids.png";
+import DetailImage1 from "@assets/images/detail/seatnow.png";
+import DetailImage2 from "@assets/images/detail/aim.png";
+import DetailImage3 from "@assets/images/detail/deokive.png";
+import DetailImage4 from "@assets/images/detail/finvibe.png";
 
 export const Service = [
   {
     id: 1,
-    title: "일거수일투족",
+    title: "SEAT NOW",
     content:
-      "나의 일거수일투족을 기록하고, 쌓여가는 기록들로 나만의 뉴스를 만들어보세요!",
+      "실시간 대학가 술집 좌석 찾기 서비스",
     image: Image1,
   },
   {
     id: 2,
-    title: "WishWesee",
-    content: "초대를 더 특별하게! 디지털 초대장 WishWesee",
+    title: "AiM",
+    content: "AI와 함께 목표를 조준하는 커리어 플레이 AI Route to Your AIM",
     image: Image2,
   },
   {
     id: 3,
-    title: "Spill the tea",
-    content: "당신의 이야기가 특별해지는 곳",
+    title: "Deokive",
+    content: "덕질의 순간을 기록하는 아카이빙 플랫폼",
     image: Image3,
   },
   {
     id: 4,
-    title: "PayKids",
-    content: "우리 아이의 첫 금융 선생님",
+    title: "FinVibe",
+    content: "배우고 투자하며 함께 성장하는 MZ세대 투자자를 위한 경제 통합 플랫폼",
     image: Image4,
   },
 ];
