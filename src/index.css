@@ -3,52 +3,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 @font-face {
-  font-family: "GmarketSansLight";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
+ font-family: "GmarketSansLight";
+ src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff")
+  format("woff");
+ font-weight: normal;
+ font-style: normal;
 }
 
 @font-face {
-  font-family: "GmarketSansMedium";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
+ font-family: "GmarketSansMedium";
+ src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+  format("woff");
+ font-weight: normal;
+ font-style: normal;
 }
 @font-face {
-  font-family: 'GMarketSansBold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
-  font-weight: normal;
-  font-display: swap;
+ font-family: "GMarketSansBold";
+ src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+  format("woff");
+ font-weight: normal;
+ font-display: swap;
 }
 
 :root {
-  --HeaderBigText: 600 24.71px / 150% Pretendard;
-  --HeaderSmallText: 500 14px / 17px Pretendard;
-  --MainBigText1: 900 116.78px / 130% Inter;
-  --MainBigText2: 900 100px / 130% Inter;
-  --MainMediumText1: 900 54.74px / 130% Inter;
-  --MainMediumText2: 900 46.88px / 130% Inter;
-  --MainSmallText1: 900 42.5px / 130% Inter;
-  --MainSmallText2: 900 36.39px / 130% Inter;
-  --MainBigBtnText: 600 21.98px / 100% Inter;
-  --MainMediumBtnText: 600 10.3px / 100% Inter;
-  --MainSmallBtnText: 600 10.65px / 100% Inter;
-  --ServiceBigText: 500 44px / 100% GmarketSansMedium;
-  --ServiceSmallText: 400 20.61px / 100% GmarketSansLight;
-  --ItemTitleBigText: 600 25px / normal Kodchasan;
-  --ItemTitleSmallText: 600 10.2px / normal Kodchasan;
-  --ItemContentBigText: 400 20px / normal Pretendard;
-  --ItemContentSmallText: 400 8.16px / normal Pretendard;
-  --FooterText: 400 12px / 160% Pretendard;
-  --HelpBigText: 600 37.15px / normal Pretendard;
-  --HelpMediumText: 600 20px / normal Pretendard;
-  --HelpSmallText: 600 12px / normal Pretendard;
-  --GMarketSansBold: 700 70px / 130% GMarketSansBold;
-  --GMarketSansSemiBold: 600 12px / 100% GmarketSansSemiMedium;
-  --GMarketSansRegular: 500 12px / 100% GmarketSansMedium;
+ --HeaderBigText: 600 24.71px / 150% Pretendard;
+ --HeaderSmallText: 500 14px / 17px Pretendard;
+ --MainBigText1: 900 116.78px / 130% Inter;
+ --MainBigText2: 900 100px / 130% Inter;
+ --MainMediumText1: 900 54.74px / 130% Inter;
+ --MainMediumText2: 900 46.88px / 130% Inter;
+ --MainSmallText1: 900 42.5px / 130% Inter;
+ --MainSmallText2: 900 36.39px / 130% Inter;
+ --MainBigBtnText: 600 21.98px / 100% Inter;
+ --MainMediumBtnText: 600 10.3px / 100% Inter;
+ --MainSmallBtnText: 600 10.65px / 100% Inter;
+ --ServiceBigText: 500 44px / 100% GmarketSansMedium;
+ --ServiceSmallText: 400 20.61px / 100% GmarketSansLight;
+ --ItemTitleBigText: 600 25px / normal Kodchasan;
+ --ItemTitleSmallText: 600 10.2px / normal Kodchasan;
+ --ItemContentBigText: 400 20px / normal Pretendard;
+ --ItemContentSmallText: 400 8.16px / normal Pretendard;
+ --FooterText: 400 12px / 160% Pretendard;
+ --HelpBigText: 600 32px / normal Pretendard;
+ --HelpMediumText: 600 20px / normal Pretendard;
+ --HelpSmallText: 600 12px / normal Pretendard;
+ --GMarketSansBold: 700 70px / 130% GMarketSansBold;
+ --GMarketSansSemiBold: 600 12px / 100% GmarketSansSemiMedium;
+ --GMarketSansRegular: 500 12px / 100% GmarketSansMedium;
 }
 
 html,
@@ -133,55 +134,55 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
+ margin: 0;
+ padding: 0;
+ border: 0;
+ vertical-align: baseline;
 }
 
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  background-color: #000000;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+ font-size: 100%;
+ background-color: #000000;
 }
 
 html,
 body {
-  overflow-x: hidden;
-  font-family: "Pretendard", sans-serif;
+ overflow-x: hidden;
+ font-family: "Pretendard", sans-serif;
 }
 
 input {
-  outline: none;
+ outline: none;
 }
 
 button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
+ background-color: transparent;
+ border: none;
+ cursor: pointer;
 }
 
 button:disabled {
-  cursor: default;
+ cursor: default;
 }
 
 * {
-  box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+ display: none;
 }
 
 ::-webkit-scrollbar-thumb {
-  display: none;
+ display: none;
 }
 
 ::-webkit-scrollbar-track {
-  display: none;
+ display: none;
 }
